@@ -1,9 +1,5 @@
 # SSH Chat System --- Secure Paramiko-Based Messaging
 
-## 🧭 Project Title
-
-**SSH Chat System Using Python & Paramiko**
-
 ------------------------------------------------------------------------
 
 ## 📘 Overview
