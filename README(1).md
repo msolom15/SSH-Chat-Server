@@ -25,10 +25,10 @@ RSA key generation utility.
 
 ## 📁 Project Structure
 
-    /server.py                 # SSH chat server (public‑key authentication)
-    /Alice.py                  # Alice client implementation
-    /Bob.py                    # Bob client implementation
-    /keygen.py                 # RSA key generator script
+    server.py                 # SSH chat server (public‑key authentication)
+    Alice.py                  # Alice client implementation
+    Bob.py                    # Bob client implementation
+    keygen.py                 # RSA key generator script
 
     /ClientA/private_key.pem   # Alice’s private key
     /ClientB/private_key.pem   # Bob’s private key
