@@ -44,7 +44,7 @@ RSA key generation utility.
     allowing secure, encrypted connections without building a
     cryptographic layer manually.
 
-2.  **Public-Key Authentication**
+2.  **Public-Key Authentication**\
     Each client supplies a private key, and the server validates it
     against a stored public key.
 
