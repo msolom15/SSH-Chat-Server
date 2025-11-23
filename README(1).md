@@ -114,8 +114,6 @@ ensured consistency and prevented unexpected authentication attempts.
 
 ### **2. Generate Keys**
 
-(Optional, only needed if generating new keys)
-
     python keygen.py
 
 Modify paths inside `keygen.py` if creating keys for different clients.
@@ -147,7 +145,3 @@ Each client will be prompted for: - Server IP\
 Type messages in one client---they appear instantly in others.
 
 ------------------------------------------------------------------------
-
-## 📄 License
-
-Add a license section here if needed (MIT recommended).
