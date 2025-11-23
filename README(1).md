@@ -89,8 +89,8 @@ them into Paramiko RSAKey objects.
 ### ✔ Threaded Communication Model
 
 The server uses one thread per client, and clients use a separate
-receiving thread: - Prevents blocking behavior\
-- Allows full-duplex chat\
+receiving thread: - Prevents blocking behavior
+- Allows full-duplex chat
 - Ensures messages arrive in real time
 
 ### ✔ Explicit SSH Connection Controls
@@ -112,11 +112,9 @@ ensured consistency and prevented unexpected authentication attempts.
 
     pip install paramiko
 
-### **2. Generate Keys**
+### **2. Generate Keys for Alice and Bob**
 
     python keygen.py
-
-Modify paths inside `keygen.py` if creating keys for different clients.
 
 ### **3. Start the Chat Server**
 
@@ -136,9 +134,9 @@ Server listens on:
 
     python Bob.py
 
-Each client will be prompted for: - Server IP\
-- Port number\
-- Username (must match the entry in `AUTHORIZED_KEYS`)
+Each client will be prompted for Server IP which is **127.0.0.1**
+- Port number: **2200**
+- Username: **Alice** for Alice.py and **Bob** for Bob.py
 
 ### **5. Start Chatting**
 
