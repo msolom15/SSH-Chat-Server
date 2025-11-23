@@ -39,7 +39,7 @@ RSA key generation utility.
 
 ## 🛠 Approach
 
-1.  **SSH Transport Instead of Raw Sockets**/
+1.  **SSH Transport Instead of Raw Sockets**\
     The project uses Paramiko's SSH `Transport` and `Channel` objects,
     allowing secure, encrypted connections without building a
     cryptographic layer manually.
