@@ -49,12 +49,11 @@ RSA key generation utility.
     against a stored public key.
 
 3.  **Threaded Message Handling**
-
     -   The server starts a thread for every connected client.
     -   Clients use a thread to continuously read incoming messages.
     -   The main thread handles message input and sending.
 
-4.  **Broadcast System**/
+4.  **Broadcast System**\
     The server distributes messages to all clients except the sender,
     tagging them with the sender's chosen display name.
 
