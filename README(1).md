@@ -39,7 +39,7 @@ RSA key generation utility.
 
 ## 🛠 Approach
 
-1.  **SSH Transport Instead of Raw Sockets**
+1.  **SSH Transport Instead of Raw Sockets**/
     The project uses Paramiko's SSH `Transport` and `Channel` objects,
     allowing secure, encrypted connections without building a
     cryptographic layer manually.
@@ -54,7 +54,7 @@ RSA key generation utility.
     -   Clients use a thread to continuously read incoming messages.
     -   The main thread handles message input and sending.
 
-4.  **Broadcast System**
+4.  **Broadcast System**/
     The server distributes messages to all clients except the sender,
     tagging them with the sender's chosen display name.
 
