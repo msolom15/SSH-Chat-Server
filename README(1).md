@@ -13,9 +13,9 @@ This project implements a secure, SSH-based real‑time chat system using
 Instead of traditional sockets, the chat uses encrypted SSH channels for
 communication, providing:
 
--   Public‑key authentication\
--   End‑to‑end encrypted message transport\
--   Multi‑client communication\
+-   Public‑key authentication
+-   End‑to‑end encrypted message transport
+-   Multi‑client communication
 -   Real‑time message broadcasting
 
 The system includes two example clients (Alice & Bob), a server, and an
